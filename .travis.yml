@@ -19,7 +19,7 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
 # Take those images and push them to docker hub
-  - docker push piquesel/multi-client
-  - docker push piquesel/multi-nginx
-  - docker push piquesel/multi-server
-  - docker push piquesel/multi-worker
+  - docker push piquesel78/multi-client
+  - docker push piquesel78/multi-nginx
+  - docker push piquesel78/multi-server
+  - docker push piquesel78/multi-worker
